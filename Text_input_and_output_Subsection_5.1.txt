@@ -1,0 +1,109 @@
+This program forms a 1D quantum potential well with the first N eigenvalues of the Hamiltonian having some pre-defined
+values given by the user. It begins with a finite square well centered at x=0 and having length L and depth V0. Then
+it repeatedly adds perturbation terms that can be expected to move the eigenvalues to the direction of the correct target
+values. If the parameters are chosen correctly, the result is a potential energy function and a set of wave function
+probability densities of a system where the energies E_1 to E_N are close to the user-defined target values.
+
+As an input, the program takes the length and depth of the initial square well, a lower bound estimate for the ground state energy
+of the system, and a fraction F which is a number between 0.0 and 1.0 and tells how much the program is to perturb the system
+during a single iteration. These values should be given in decimal form, such as V0 = 200.0 instead of V0 = 200. In addition to this,
+the program wants the number N which is the number of lowest eigenenergies to tune, the number of iterations to be made (this, of
+course, should be a large number whenever F is small), and the values of target energies E_1 to E_N. The integer values N and the
+number of iterations have to be written in integer form such as 4 instead of 4.0, and the energies in decimal form such as
+E_2 = 4.0.
+
+All of the target eigenenergies should be numbers between 0 and V0 and given in increasing order (e.g. not E_1 = 5.0 followed by E_2 = 2.0).
+It is also not a good idea to set the first eigenenergy E_1 to a value that is much closer to zero than the other energies, e.g.
+E_1 = 0.01 and E_2 = 6.0. This is not necessary, either, because in practice the spacings between energies have more importance
+than their absolute values.
+
+As an option, you are also asked whether the data for the potential energy function V(x) should be saved in an output file after
+every iteration or only after the last one. The first N wave function probability densities of the resulting potential well are
+saved in an output file only after the last iteration
+
+The length of the square well: 1.0
+
+The depth of the square well: 200.0
+
+Give a lower bound estimate for ground state energy: 2.0
+
+Number of energy eigenvalues to calculate and tune: 3
+
+Fraction F: 0.5
+
+Number of iterations: 10
+
+Energy 1: 6.0
+
+Energy 2: 9.0
+
+Energy 3: 25.0
+
+Produce V(x) output file on every step (1) or only the last (2)? Enter 1 or 2: 1
+
+Energies of the unperturbed system:
+
+Energy 1: 4.08
+Energy 2: 16.288
+Energy 3: 36.54
+
+Energies after step 1:
+
+Energy 1: 4.108
+Energy 2: 11.704
+Energy 3: 31.404
+
+Energies after step 2:
+
+Energy 1: 4.432
+Energy 2: 9.668
+Energy 3: 28.504
+
+Energies after step 3:
+
+Energy 1: 4.888
+Energy 2: 8.976
+Energy 3: 26.844
+
+Energies after step 4:
+
+Energy 1: 5.316
+Energy 2: 8.848
+Energy 3: 25.94
+
+Energies after step 5:
+
+Energy 1: 5.616
+Energy 2: 8.884
+Energy 3: 25.472
+
+Energies after step 6:
+
+Energy 1: 5.796
+Energy 2: 8.928
+Energy 3: 25.236
+
+Energies after step 7:
+
+Energy 1: 5.896
+Energy 2: 8.96
+Energy 3: 25.12
+
+Energies after step 8:
+
+Energy 1: 5.948
+Energy 2: 8.98
+Energy 3: 25.06
+
+Energies after step 9:
+
+Energy 1: 5.972
+Energy 2: 8.992
+Energy 3: 25.032
+
+Energies after step 10:
+
+Energy 1: 5.988
+Energy 2: 8.996
+Energy 3: 25.016
+

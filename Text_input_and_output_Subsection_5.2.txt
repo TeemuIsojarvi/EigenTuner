@@ -1,0 +1,99 @@
+The length of the square well: 2.0
+
+The depth of the square well: 50.0
+
+Give a lower bound estimate for ground state energy: 0.3
+
+Number of energy eigenvalues to calculate and tune: 4
+
+Fraction F: 0.5
+
+Number of iterations: 10
+
+Energy 1: 3.0
+
+Energy 2: 4.0
+
+Energy 3: 8.0
+
+Energy 4: 10.0
+
+Produce V(x) output file on every step (1) or only the last (2)? Enter 1 or 2: 1
+
+Energies of the unperturbed system:
+
+Energy 1: 1.0196
+Energy 2: 4.07
+Energy 3: 9.1274
+Energy 4: 16.1438
+
+Energies after step 1:
+
+Energy 1: 1.5632
+Energy 2: 3.3818
+Energy 3: 7.7456
+Energy 4: 13.2146
+
+Energies after step 2:
+
+Energy 1: 2.0192
+Energy 2: 3.4112
+Energy 3: 7.4618
+Energy 4: 11.5508
+
+Energies after step 3:
+
+Energy 1: 2.3996
+Energy 2: 3.6206
+Energy 3: 7.5716
+Energy 4: 10.7282
+
+Energies after step 4:
+
+Energy 1: 2.6576
+Energy 2: 3.7838
+Energy 3: 7.7288
+Energy 4: 10.3436
+
+Energies after step 5:
+
+Energy 1: 2.8142
+Energy 2: 3.8834
+Energy 3: 7.8458
+Energy 4: 10.1648
+
+Energies after step 6:
+
+Energy 1: 2.903
+Energy 2: 3.9392
+Energy 3: 7.9172
+Energy 4: 10.0802
+
+Energies after step 7:
+
+Energy 1: 2.9504
+Energy 2: 3.9692
+Energy 3: 7.9574
+Energy 4: 10.0394
+
+Energies after step 8:
+
+Energy 1: 2.975
+Energy 2: 3.9842
+Energy 3: 7.9784
+Energy 4: 10.0202
+
+Energies after step 9:
+
+Energy 1: 2.9876
+Energy 2: 3.992
+Energy 3: 7.9892
+Energy 4: 10.01
+
+Energies after step 10:
+
+Energy 1: 2.9936
+Energy 2: 3.9962
+Energy 3: 7.9946
+Energy 4: 10.0052
+
