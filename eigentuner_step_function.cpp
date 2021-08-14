@@ -596,12 +596,6 @@ main()
 					pe_out << xarray[count] << " " << potential((double)count*step) << "\n";
     				}
 
-				pe_out << "\n";
-
-				for(int n=0; n<Enum; n++) {
-				pe_out << -length/2 << " " << Evalues[n] << "\n";
-				pe_out << length/2 << " " << Evalues[n] << "\n\n";
-				}
 
 				pe_out.close();
 			}
