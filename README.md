@@ -7,4 +7,4 @@ This program has been tested in Ubuntu Linux and compiled as "g++ -O3 -ffast-mat
 
 The code in its current form contains a lot of global variables and is not very optimized for performance, but this will be corrected in later versions.
 
-More information about the application can be found from the documentation file "Documentation_v0.95.pdf".
+More information about the application can be found from the documentation file "Documentation_v0.95.pdf". Some questions about this topic are also considered in my Wordpress blog: https://compphysdiary.wordpress.com/ .
